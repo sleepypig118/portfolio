@@ -1,37 +1,32 @@
-/* display background color black on navbar scroll */
-.navbarScroll.navbarDark {
-  background-color: rgb(233, 230, 230);
+.imageAboutPage {
+  width: 100%;
 }
 
-/* hero background image */
-.bgimage {
-  height:100vh;
-  background: url('images/heroImage.jpeg');
-  background-size:cover;
-  position:relative;
+.card-title {
+  text-align: center;
+}
+
+.intro{
+  color: #595858;
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 0rem;
+  padding-top: 8rem;
+  margin-bottom: 1rem;
+  max-width: 800px;
+  line-height: 54px;
+}
+
+.projects{
+  display: grid;
+  grid-template:repeat(2,1fr)/repeat(2,1fr);
+  justify-content: space-evenly;
+  grid-gap: 5rem;
 }
 
 #contact {
   text-align: center;
   padding-bottom: 4rem;
-}
-/* about section image css */
-.imageAboutPage {
-  width: 100%;
-}
-
-/* services section css */
-.servicesText.card {
-  height: 280px;
-  cursor: pointer;
-}
-.servicesIcon {
-  font-size: 36px;
-  text-align: center;
-  width: 100%;
-}
-.card-title {
-  text-align: center;
 }
 
 .social-icons {
@@ -44,28 +39,10 @@
 .fab {
   color: #000000;
 }
-/* footer styling */
+
 #footer {
   background-color: #808080;
   text-align: center;
-}
-
-.intro{
-  color: #595858;
-  margin-bottom: 1rem;
-  font-size: 40px;
-  font-weight: 400;
-  margin-top: 0rem;
-  padding-top: 8rem;
-  max-width: 800px;
-  line-height: 54px;
-}
-
-.projects{
-  display: grid;
-  grid-template:repeat(2,1fr)/repeat(2,1fr);
-  justify-content: space-evenly;
-  grid-gap: 5rem;
 }
 
 .separationDiv {
