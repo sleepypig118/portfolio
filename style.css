@@ -1,0 +1,107 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+  background-color: rgb(233, 230, 230);
+}
+
+/* hero background image */
+.bgimage {
+  height:100vh;
+  background: url('images/heroImage.jpeg');
+  background-size:cover;
+  position:relative;
+}
+
+#contact {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+/* about section image css */
+.imageAboutPage {
+  width: 100%;
+}
+
+/* services section css */
+.servicesText.card {
+  height: 280px;
+  cursor: pointer;
+}
+.servicesIcon {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+
+.social-icons {
+  font-size: 36px;
+  cursor: pointer;
+}
+.fa-linkedin:hover, .fa-facebook:hover, .fa-twitter:hover {
+  color: #60ad60;
+}
+.fab {
+  color: #000000;
+}
+/* footer styling */
+#footer {
+  background-color: #808080;
+  text-align: center;
+}
+
+.intro{
+  color: #595858;
+  margin-bottom: 1rem;
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 0rem;
+  padding-top: 8rem;
+  max-width: 800px;
+  line-height: 54px;
+}
+
+.projects{
+  display: grid;
+  grid-template:repeat(2,1fr)/repeat(2,1fr);
+  justify-content: space-evenly;
+  grid-gap: 5rem;
+}
+
+.separationDiv {
+  display: block;
+  height: 2px;
+  max-width: none;
+  margin: 20px 0px 100px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.sub-separation {
+  display: block;
+  height: 2px;
+  max-width: none;
+  margin: 20px 0px 80px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.projectImage {
+  width: 100%;
+  height: 430px;
+}
+
+.projectContent {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.project-text {
+  font-size: 20px;
+}
