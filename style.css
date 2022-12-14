@@ -1,9 +1,5 @@
-.imageAboutPage {
+.imageAbout {
   width: 100%;
-}
-
-.card-title {
-  text-align: center;
 }
 
 .intro{
@@ -15,6 +11,10 @@
   margin-bottom: 1rem;
   max-width: 800px;
   line-height: 54px;
+}
+
+.card-title {
+  text-align: center;
 }
 
 .projects{
@@ -29,12 +29,12 @@
   padding-bottom: 4rem;
 }
 
-.social-icons {
-  font-size: 36px;
+.social-app {
+  font-size: 32px;
   cursor: pointer;
 }
 .fa-linkedin:hover, .fa-facebook:hover, .fa-twitter:hover {
-  color: #60ad60;
+  color: #404640;
 }
 .fab {
   color: #000000;
